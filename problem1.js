@@ -1,4 +1,4 @@
-var num = 0;
+var num = 5;
 if(num==0)
 {
     console.log("The factorial value will be=1");
@@ -15,5 +15,5 @@ for(var i=1;i<=num;i++)
 {
     fact*=i;
 }
-console.log("The factorial value will be =",fact);
+console.log(fact);
 }
